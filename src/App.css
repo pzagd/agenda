@@ -1,0 +1,73 @@
+.responsive-title-h1 {
+  font-size: 1.8em;
+}
+
+.responsive-title-h2 {
+  font-size: 1.6em;
+}
+
+p,
+a,
+span,
+tr,
+td,
+li,
+button,
+label,
+input,
+select {
+  font-size: 14px !important;
+}
+
+@media (min-width: 768px) {
+  .responsive-title-h1 {
+    font-size: 2.5em;
+  }
+
+  .responsive-title-h2 {
+    font-size: 1.8em;
+  }
+
+  p,
+  a,
+  span,
+  tr,
+  td,
+  li,
+  button,
+  label,
+  input,
+  select {
+    font-size: 16px !important;
+  }
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+.nav-item button {
+  border: none;
+  padding: 15px;
+  background-color: transparent;
+}
+
+.nav-item button.active {
+  background: white !important;
+}
+
+div#tabs {
+  padding: 0px !important;
+}
+
+ul.nav.nav-tabs {
+  border: none;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background-color: aliceblue;
+}
